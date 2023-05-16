@@ -1,0 +1,40 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.bottoni{
+    height: 100px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottone-interno{
+    border: solid black 2px;
+    height: 20px;
+    background-color: yellow;
+    padding: 5px;
+    scale: 1.4
+}
+
+.risultato{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.pd{
+    padding: 5px;
+    background-color: yellowgreen;
+}
